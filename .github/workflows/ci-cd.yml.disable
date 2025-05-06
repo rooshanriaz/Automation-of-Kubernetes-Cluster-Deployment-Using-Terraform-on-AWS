@@ -1,0 +1,17 @@
+# This file has been temporarily disabled to prevent automatic AWS resource creation
+# Original content was moved here from ci-cd.yml
+# To re-enable the workflow, rename this file back to ci-cd.yml
+
+name: Reddit Clone CI/CD Pipeline (DISABLED)
+
+# Workflow has been disabled to prevent automatic AWS instance creation
+on:
+  workflow_dispatch:
+    inputs:
+      run_pipeline:
+        description: 'Manual trigger only - automatic triggers disabled'
+        required: true
+        default: 'false'
+        type: boolean
+
+# Rest of the workflow configuration remains unchanged but won't be triggered automatically
