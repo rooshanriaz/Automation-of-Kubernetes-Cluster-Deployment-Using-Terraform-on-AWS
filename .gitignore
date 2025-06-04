@@ -17,6 +17,10 @@ node_modules/
 out/
 dist/
 .env
+.env.local
+.env.development
+.env.production
+.env.test
 .env.*        # for .env.development, .env.production, etc.
 npm-debug.log*
 yarn-debug.log*
