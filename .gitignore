@@ -1,0 +1,56 @@
+.terraform/
+EKS-TF/awscliv2.zip
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# === Node.js / Next.js ===
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.*        # for .env.development, .env.production, etc.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # (optional: remove only if managing lockfile differently)
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Logs ===
+logs/
+*.log
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# === Git LFS and Binaries ===
+*.zip
+*.tar.gz
+*.exe
+*.bin
+*.x5
+
+# === Firebase (optional) ===
+.firebase/
+.firebaserc
+
+# === Docker (optional) ===
+*.pid
+
+# === Build Artifacts (optional, adjust per use case) ===
+*.bak
+*.tmp
