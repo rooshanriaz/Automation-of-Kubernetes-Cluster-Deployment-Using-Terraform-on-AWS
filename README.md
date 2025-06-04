@@ -36,7 +36,7 @@ Follow these steps to install and run the Reddit clone app:
 
 1. Clone this repository to your local machine: 
    ```
-   git clone https://github.com/rooshanriaz/    Automation-of-Kubernetes-Cluster-Deployment-Using-Terraform-on-AWS.git
+   git clone https://github.com/rooshanriaz/Automation-of-Kubernetes-Cluster-Deployment-Using-Terraform-on-AWS.git
    ```
 
 2. Navigate to the project directory: 
